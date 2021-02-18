@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* ======Header============ */
+.toper{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    background-image: url(https://starregister.org/images/blog-shooting-star.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    /* background-attachment: fixed; */
+}
+ul{
+    list-style: none;
+}
+
+    /* =====NAVBAR===== */
+
+.navbar{
+    /* border: 1px solid purple; */
+    display: flex;
+    /* justify-content:space-between; */
+    width: 100%;
+    height: 80px;
+    align-items: center;
+
+}
+.logo{
+    /* border: 1px solid black; */
+    padding:10px  100px ;
+    /* margin: 0 50px; */
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+.navbtn{
+    width: 50%;
+    /* border: 1px solid black; */
+    
+
+}
+.navbtn ul {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.navbtn ul li{
+    /* border: 1px solid brown; */
+    font-family: sans-serif;
+    padding:10px 0 ;
+    
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /* align-items: center; */
+    font-weight: bold;
+    font-size: large;
+}
+.navbtn ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    transition:all 1s ease ;
+}
+.topperContain{
+    width: 100%;
+    height: 320px;
+    /* border: 2px solid pink; */
+    /* position: absolute; */
+}
+
+.maincontain{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid gold;     */
+    /* position: absolute; */
+    padding: 50px 0;
+}
+.maincontain  h1 {
+    font-family:sans-serif ;
+    color: green;
+} 
+.maincontain span{
+    color: white;
+}
+
+.maincontain p{
+    font-size: medium;
+    font-weight: 700;
+    /* border: 1px solid slateblue; */
+    margin-top: 15px;
+}
+.containbtn{
+    margin-top: 30px;
+    /* border: 1px solid khaki; */
+}
+.containbtn button{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lawngreen;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+        /* ==========containBox============ */
+.containbox{
+    /* border: 1px solid black; */
+    width: 100%;
+    
+    background-color: whitesmoke;
+    
+}
+.containbox ul{
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.containbox i{
+    font-size: 50px;
+    
+}
+.containbox li{
+    border: none;
+    width: 250px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 0.5px grey;
+    font-family: sans-serif;
+}
+
+    /* ///////=======FOOTER//////====== */
+
+.footer{
+    width: 100%;
+    height: 20px;
+    background-color: darkred;
+    text-align: center;
+    
+    
+}
+
+@media only screen and (max-width:786px){
+    .toper{
+        background-image: url(https://wallpaperaccess.com/full/494648.jpg);
+    }
+    .navbtn ul li{
+     
+        font-family: sans-serif;
+        padding:10px 0 ;
+        
+        width: 130px;
+        height: 30px;
+        text-align: center;
+        
+        font-weight: bold;
+        font-size: large;
+    }   
+}
+
